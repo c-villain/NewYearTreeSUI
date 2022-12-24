@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A39ED76294D1EC2008FCBB0 /* ChristmasTreeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A39ED75294D1EC2008FCBB0 /* ChristmasTreeApp.swift */; };
+		5A39ED78294D1EC2008FCBB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A39ED77294D1EC2008FCBB0 /* ContentView.swift */; };
+		5A39ED7A294D1EC3008FCBB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A39ED79294D1EC3008FCBB0 /* Assets.xcassets */; };
+		5A39ED7D294D1EC3008FCBB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A39ED7C294D1EC3008FCBB0 /* Preview Assets.xcassets */; };
+		5A39ED84294D1EF2008FCBB0 /* Snow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A39ED83294D1EF2008FCBB0 /* Snow.swift */; };
+		5A39ED86294D21A9008FCBB0 /* SnowParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5A39ED85294D21A9008FCBB0 /* SnowParticle.sks */; };
+		5A39ED8A294DE035008FCBB0 /* EveSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A39ED89294DE035008FCBB0 /* EveSection.swift */; };
+		5A39ED8C294DE388008FCBB0 /* Eve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A39ED8B294DE388008FCBB0 /* Eve.swift */; };
+		5A39ED8F294DE91D008FCBB0 /* Trunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A39ED8E294DE91D008FCBB0 /* Trunk.swift */; };
+		5A39ED91294DE957008FCBB0 /* EvePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A39ED90294DE957008FCBB0 /* EvePattern.swift */; };
+		5A39ED93294E4C30008FCBB0 /* ChristmasBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A39ED92294E4C30008FCBB0 /* ChristmasBall.swift */; };
+		5A39ED95294E5FCD008FCBB0 /* Color+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A39ED94294E5FCD008FCBB0 /* Color+extension.swift */; };
+		5A39ED97294E6DA9008FCBB0 /* Garland.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A39ED96294E6DA9008FCBB0 /* Garland.swift */; };
+		5A39ED9F294E7E81008FCBB0 /* GlowText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A39ED9E294E7E81008FCBB0 /* GlowText.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A39ED72294D1EC2008FCBB0 /* ChristmasTreeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChristmasTreeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A39ED75294D1EC2008FCBB0 /* ChristmasTreeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasTreeApp.swift; sourceTree = "<group>"; };
+		5A39ED77294D1EC2008FCBB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5A39ED79294D1EC3008FCBB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A39ED7C294D1EC3008FCBB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5A39ED83294D1EF2008FCBB0 /* Snow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snow.swift; sourceTree = "<group>"; };
+		5A39ED85294D21A9008FCBB0 /* SnowParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SnowParticle.sks; sourceTree = "<group>"; };
+		5A39ED89294DE035008FCBB0 /* EveSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EveSection.swift; sourceTree = "<group>"; };
+		5A39ED8B294DE388008FCBB0 /* Eve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eve.swift; sourceTree = "<group>"; };
+		5A39ED8E294DE91D008FCBB0 /* Trunk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trunk.swift; sourceTree = "<group>"; };
+		5A39ED90294DE957008FCBB0 /* EvePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvePattern.swift; sourceTree = "<group>"; };
+		5A39ED92294E4C30008FCBB0 /* ChristmasBall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasBall.swift; sourceTree = "<group>"; };
+		5A39ED94294E5FCD008FCBB0 /* Color+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+extension.swift"; sourceTree = "<group>"; };
+		5A39ED96294E6DA9008FCBB0 /* Garland.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Garland.swift; sourceTree = "<group>"; };
+		5A39ED9E294E7E81008FCBB0 /* GlowText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowText.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A39ED6F294D1EC2008FCBB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A39ED69294D1EC2008FCBB0 = {
+			isa = PBXGroup;
+			children = (
+				5A39ED74294D1EC2008FCBB0 /* ChristmasTreeApp */,
+				5A39ED73294D1EC2008FCBB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A39ED73294D1EC2008FCBB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A39ED72294D1EC2008FCBB0 /* ChristmasTreeApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A39ED74294D1EC2008FCBB0 /* ChristmasTreeApp */ = {
+			isa = PBXGroup;
+			children = (
+				5A39ED99294E70B2008FCBB0 /* Garland */,
+				5A39ED98294E70A9008FCBB0 /* Balls */,
+				5A39ED8D294DE6DB008FCBB0 /* NewYearTree */,
+				5A39ED75294D1EC2008FCBB0 /* ChristmasTreeApp.swift */,
+				5A39ED77294D1EC2008FCBB0 /* ContentView.swift */,
+				5A39ED79294D1EC3008FCBB0 /* Assets.xcassets */,
+				5A39ED7B294D1EC3008FCBB0 /* Preview Content */,
+				5A39ED83294D1EF2008FCBB0 /* Snow.swift */,
+				5A39ED85294D21A9008FCBB0 /* SnowParticle.sks */,
+				5A39ED94294E5FCD008FCBB0 /* Color+extension.swift */,
+				5A39ED9E294E7E81008FCBB0 /* GlowText.swift */,
+			);
+			path = ChristmasTreeApp;
+			sourceTree = "<group>";
+		};
+		5A39ED7B294D1EC3008FCBB0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5A39ED7C294D1EC3008FCBB0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5A39ED8D294DE6DB008FCBB0 /* NewYearTree */ = {
+			isa = PBXGroup;
+			children = (
+				5A39ED89294DE035008FCBB0 /* EveSection.swift */,
+				5A39ED8B294DE388008FCBB0 /* Eve.swift */,
+				5A39ED8E294DE91D008FCBB0 /* Trunk.swift */,
+				5A39ED90294DE957008FCBB0 /* EvePattern.swift */,
+			);
+			path = NewYearTree;
+			sourceTree = "<group>";
+		};
+		5A39ED98294E70A9008FCBB0 /* Balls */ = {
+			isa = PBXGroup;
+			children = (
+				5A39ED92294E4C30008FCBB0 /* ChristmasBall.swift */,
+			);
+			path = Balls;
+			sourceTree = "<group>";
+		};
+		5A39ED99294E70B2008FCBB0 /* Garland */ = {
+			isa = PBXGroup;
+			children = (
+				5A39ED96294E6DA9008FCBB0 /* Garland.swift */,
+			);
+			path = Garland;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A39ED71294D1EC2008FCBB0 /* ChristmasTreeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A39ED80294D1EC3008FCBB0 /* Build configuration list for PBXNativeTarget "ChristmasTreeApp" */;
+			buildPhases = (
+				5A39ED6E294D1EC2008FCBB0 /* Sources */,
+				5A39ED6F294D1EC2008FCBB0 /* Frameworks */,
+				5A39ED70294D1EC2008FCBB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChristmasTreeApp;
+			productName = ChristmasTreeApp;
+			productReference = 5A39ED72294D1EC2008FCBB0 /* ChristmasTreeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A39ED6A294D1EC2008FCBB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					5A39ED71294D1EC2008FCBB0 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 5A39ED6D294D1EC2008FCBB0 /* Build configuration list for PBXProject "ChristmasTreeApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A39ED69294D1EC2008FCBB0;
+			productRefGroup = 5A39ED73294D1EC2008FCBB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A39ED71294D1EC2008FCBB0 /* ChristmasTreeApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A39ED70294D1EC2008FCBB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A39ED7D294D1EC3008FCBB0 /* Preview Assets.xcassets in Resources */,
+				5A39ED86294D21A9008FCBB0 /* SnowParticle.sks in Resources */,
+				5A39ED7A294D1EC3008FCBB0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A39ED6E294D1EC2008FCBB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A39ED8F294DE91D008FCBB0 /* Trunk.swift in Sources */,
+				5A39ED95294E5FCD008FCBB0 /* Color+extension.swift in Sources */,
+				5A39ED8C294DE388008FCBB0 /* Eve.swift in Sources */,
+				5A39ED97294E6DA9008FCBB0 /* Garland.swift in Sources */,
+				5A39ED78294D1EC2008FCBB0 /* ContentView.swift in Sources */,
+				5A39ED84294D1EF2008FCBB0 /* Snow.swift in Sources */,
+				5A39ED76294D1EC2008FCBB0 /* ChristmasTreeApp.swift in Sources */,
+				5A39ED9F294E7E81008FCBB0 /* GlowText.swift in Sources */,
+				5A39ED8A294DE035008FCBB0 /* EveSection.swift in Sources */,
+				5A39ED91294DE957008FCBB0 /* EvePattern.swift in Sources */,
+				5A39ED93294E4C30008FCBB0 /* ChristmasBall.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5A39ED7E294D1EC3008FCBB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A39ED7F294D1EC3008FCBB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A39ED81294D1EC3008FCBB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChristmasTreeApp/Preview Content\"";
+				DEVELOPMENT_TEAM = TP33793R45;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.c-villain.ChristmasTreeApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A39ED82294D1EC3008FCBB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChristmasTreeApp/Preview Content\"";
+				DEVELOPMENT_TEAM = TP33793R45;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.c-villain.ChristmasTreeApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A39ED6D294D1EC2008FCBB0 /* Build configuration list for PBXProject "ChristmasTreeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A39ED7E294D1EC3008FCBB0 /* Debug */,
+				5A39ED7F294D1EC3008FCBB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A39ED80294D1EC3008FCBB0 /* Build configuration list for PBXNativeTarget "ChristmasTreeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A39ED81294D1EC3008FCBB0 /* Debug */,
+				5A39ED82294D1EC3008FCBB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A39ED6A294D1EC2008FCBB0 /* Project object */;
+}
