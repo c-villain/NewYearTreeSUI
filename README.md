@@ -11,7 +11,7 @@ Basically this is tutorial for working with [Path](https://developer.apple.com/d
 
 
 
-Full [demo video](https://t.me/swiftui_dev/194) you may find [here](https://t.me/swiftui_dev/194).
+Full [demo video](https://t.me/swiftui_dev/221) you may find [here](https://t.me/swiftui_dev/221).
 
 👨🏻‍💻 Feel free to subscribe to channel **[SwiftUI dev](https://t.me/swiftui_dev)** in telegram.
 
